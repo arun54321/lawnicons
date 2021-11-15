@@ -30,6 +30,7 @@
     <icon drawable="@drawable/facebook" package="com.facebook.katana" name="Facebook" />
     <icon drawable="@drawable/messenger" package="com.facebook.orca" name="Messenger" />
     <icon drawable="@drawable/netflix" package="com.netflix.mediaclient" name="Netflix" />
+    <icon drawable="@drawable/nekogram_x" package="nekox.messenger" name="Nekogram X" />
     <icon drawable="@drawable/github" package="com.github.android" name="GitHub" />
     <icon drawable="@drawable/magisk" package="com.topjohnwu.magisk" name="Magisk" />
     <icon drawable="@drawable/sync" package="com.laurencedawson.reddit_sync" name="Sync" />
