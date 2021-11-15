@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - modded
 
 jobs:
   build-debug-apk:
