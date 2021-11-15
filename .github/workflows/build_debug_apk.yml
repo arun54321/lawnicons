@@ -28,12 +28,12 @@ jobs:
       - name: Grant execution permission to Gradle Wrapper
         run: chmod +x gradlew
       - name: Build debug APK
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleRelease
       - name: Sign debug APK
         uses: r0adkll/sign-android-release@v1
         id: sign-debug-apk
         with:
-          releaseDirectory: app/build/outputs/apk/debug
+          releaseDirectory: app/build/outputs/apk/release
           signingKeyBase64: ${{ secrets.KEYSTORE }}
           alias: ${{ secrets.KEY_ALIAS }}
           keyStorePassword: ${{ secrets.KEYSTORE_PASSWORD }}
@@ -61,7 +61,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
       - name: Install Python packages
         run: |
           python -m pip install --upgrade pip
