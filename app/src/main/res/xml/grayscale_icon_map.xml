@@ -69,7 +69,9 @@
     <icon drawable="@drawable/dialer" package="com.oneplus.dialer" name="Phone" />
     <icon drawable="@drawable/dialer" package="com.android.dialer" name="Phone" />
     <icon drawable="@drawable/dialer" package="com.truecaller" name="Phone" />
+    <icon drawable="@drawable/dialer" package="com.google.android.dialer" name="Phone" />
     <icon drawable="@drawable/messages" package="com.samsung.android.messaging" name="Messages" />
+    <icon drawable="@drawable/messages" package="com.google.android.apps.messaging" name="Messages" />
     <icon drawable="@drawable/calculator" package="com.android.calculator2" name="Calculator" />
     <icon drawable="@drawable/calculator" package="com.sec.android.app.popupcalculator" name="Calculator" />
     <icon drawable="@drawable/calculator" package="com.oneplus.calculator" name="Calculator" />
